@@ -49,4 +49,4 @@ I am a self-taught cybersecurity professional with hands-on experience in networ
 
 ## 📫 Contact
 - **LinkedIn:** [Your LinkedIn URL]
-- **Email:** [Your Email]
+- **Email:** [bara1abu1alhija@gmail.com]
