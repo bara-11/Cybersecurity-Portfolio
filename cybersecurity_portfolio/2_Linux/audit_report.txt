@@ -1,0 +1,19 @@
+Security Audit Log - Sat Jun 20 07:50:52 AM +03 2026
+--- Listening Ports ---
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0          127.0.0.1:323       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353      0.0.0.0:*          
+udp   UNCONN 0      0              [::1]:323          [::]:*          
+udp   UNCONN 0      0               [::]:5353         [::]:*          
+tcp   LISTEN 0      4096       127.0.0.1:631       0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631          [::]:*          
+--- Top CPU Processes ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+bara1       6653  200  0.1  21188  4868 pts/0    R+   07:50   0:00 ps aux --sort=-%cpu
+bara1       6645 41.6  0.8 187608 29244 ?        RN   07:50   0:00 /usr/libexec/localsearch-extractor-3 --socket-fd 3
+bara1       3445  2.3  7.3 3848992 251028 ?      Rsl  07:16   0:49 /usr/bin/gnome-shell --mode=ubuntu
+bara1       4766  1.1  6.7 1615024 231576 ?      Sl   07:16   0:22 ptyxis --new-window

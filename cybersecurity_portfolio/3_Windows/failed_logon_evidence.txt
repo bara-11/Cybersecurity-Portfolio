@@ -1,0 +1,37 @@
+TimeCreated  : 6/20/2026 10:23:15 AM
+Id           : 4625
+LevelDisplayName : Information
+Message      : An account failed to log on.
+
+Subject:
+	Security ID:		S-1-5-18
+	Account Name:		DESKTOP-ABC123$
+	Account Domain:		WORKGROUP
+	Logon ID:		0x3E7
+
+Logon Type:			2
+Account For Which Logon Failed:
+	Security ID:		NULL SID
+	Account Name:		bara1
+	Account Domain:		DESKTOP-ABC123
+
+Failure Information:
+	Failure Reason:		Unknown user name or bad password.
+	Status:			0xC000006D
+	Sub Status:		0xC0000064
+
+Process Information:
+	Caller Process ID:	0x0
+	Caller Process Name:	-
+
+Network Information:
+	Workstation Name:	DESKTOP-ABC123
+	Source Network Address:	127.0.0.1
+	Source Port:		0
+
+Detailed Authentication Information:
+	Logon Process:		User32
+	Authentication Package:	Negotiate
+	Transited Services:	-
+	Package Name (NTLM only):	-
+	Key Length:		0

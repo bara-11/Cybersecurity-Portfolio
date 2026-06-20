@@ -1,0 +1,5 @@
+Scanning scanme.nmap.org...
+Port 22 is OPEN
+Port 80 is CLOSED/FILTERED
+Port 443 is CLOSED/FILTERED
+Port 8080 is CLOSED/FILTERED
